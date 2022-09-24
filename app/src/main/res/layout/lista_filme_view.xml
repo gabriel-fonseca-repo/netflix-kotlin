@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:contentDescription="@string/anterior"
+    android:padding="10dp"
+    tools:context=".ListaFilmeView">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:columnCount="2"
+        android:rowCount="3"
+        android:useDefaultMargins="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imagem_1"
+                android:layout_width="@dimen/largura_poster"
+                android:layout_height="250dp"
+                android:src="@drawable/breaking_bad_poster" />
+
+            <Button
+                android:id="@+id/button_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ver_detalhes"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imagem_2"
+                android:layout_width="@dimen/largura_poster"
+                android:layout_height="250dp"
+                android:src="@drawable/et_poster" />
+
+            <Button
+                android:id="@+id/button_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ver_detalhes" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imagem_3"
+                android:layout_width="@dimen/largura_poster"
+                android:layout_height="250dp"
+                android:src="@drawable/freedom_poster" />
+
+            <Button
+                android:id="@+id/button_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ver_detalhes" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imagem_4"
+                android:layout_width="@dimen/largura_poster"
+                android:layout_height="250dp"
+                android:src="@drawable/joker_poster" />
+
+            <Button
+                android:id="@+id/button_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ver_detalhes" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imagem_5"
+                android:layout_width="@dimen/largura_poster"
+                android:layout_height="250dp"
+                android:src="@drawable/replica_poster" />
+
+            <Button
+                android:id="@+id/button_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ver_detalhes" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imagem_6"
+                android:layout_width="@dimen/largura_poster"
+                android:layout_height="250dp"
+                android:src="@drawable/pantera_negra_poster" />
+
+            <Button
+                android:id="@+id/button_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ver_detalhes" />
+        </LinearLayout>
+    </GridLayout>
+</ScrollView>
