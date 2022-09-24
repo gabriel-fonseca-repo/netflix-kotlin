@@ -9,9 +9,6 @@ import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import com.gabriel.augusto.netflox.databinding.FilmeViewBinding
 
-/**
- * A simple [Fragment] subclass as the second destination in the navigation.
- */
 class FilmeView : Fragment() {
 
     private var _binding: FilmeViewBinding? = null
@@ -28,7 +25,6 @@ class FilmeView : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
 
         val bundle = arguments;
 

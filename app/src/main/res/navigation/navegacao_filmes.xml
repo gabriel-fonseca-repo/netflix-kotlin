@@ -6,20 +6,6 @@
     app:startDestination="@id/ListaFilmeView">
 
     <fragment
-        android:id="@+id/FilmeView"
-        android:name="com.gabriel.augusto.netflox.FilmeView"
-        android:label="@string/fragmento_lista_filmes_titulo"
-        tools:layout="@layout/filme_view">
-        <action
-            android:id="@+id/voltar_para_lista"
-            app:destination="@id/ListaFilmeView"></action>
-        <argument
-            android:name="id_filme"
-            android:defaultValue="1"
-            app:argType="integer" />
-
-    </fragment>
-    <fragment
         android:id="@+id/ListaFilmeView"
         android:name="com.gabriel.augusto.netflox.ListaFilmeView"
         android:label="@string/fragmento_filme_titulo"
@@ -32,6 +18,19 @@
                 android:defaultValue="1"
                 app:argType="integer" />
         </action>
+    </fragment>
 
+    <fragment
+        android:id="@+id/FilmeView"
+        android:name="com.gabriel.augusto.netflox.FilmeView"
+        android:label="@string/fragmento_lista_filmes_titulo"
+        tools:layout="@layout/filme_view">
+        <action
+            android:id="@+id/voltar_para_lista"
+            app:destination="@id/ListaFilmeView"></action>
+        <argument
+            android:name="id_filme"
+            android:defaultValue="1"
+            app:argType="integer" />
     </fragment>
 </navigation>
