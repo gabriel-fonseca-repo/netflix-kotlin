@@ -31,9 +31,9 @@
 
             <Button
                 android:id="@+id/button_1"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/ver_detalhes"/>
+                android:text="@string/ver_detalhes" />
         </LinearLayout>
 
         <LinearLayout
@@ -50,7 +50,7 @@
 
             <Button
                 android:id="@+id/button_2"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/ver_detalhes" />
         </LinearLayout>
@@ -69,7 +69,7 @@
 
             <Button
                 android:id="@+id/button_3"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/ver_detalhes" />
         </LinearLayout>
@@ -88,7 +88,7 @@
 
             <Button
                 android:id="@+id/button_4"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/ver_detalhes" />
         </LinearLayout>
@@ -107,7 +107,7 @@
 
             <Button
                 android:id="@+id/button_5"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/ver_detalhes" />
         </LinearLayout>
@@ -125,9 +125,11 @@
 
             <Button
                 android:id="@+id/button_6"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/ver_detalhes" />
+
         </LinearLayout>
+
     </GridLayout>
 </ScrollView>
