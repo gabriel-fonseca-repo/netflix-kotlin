@@ -27,7 +27,8 @@
         tools:layout="@layout/filme_view">
         <action
             android:id="@+id/voltar_para_lista"
-            app:destination="@id/ListaFilmeView"></action>
+            app:destination="@id/ListaFilmeView">
+        </action>
         <argument
             android:name="id_filme"
             android:defaultValue="1"
